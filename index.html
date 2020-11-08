@@ -34,8 +34,6 @@
       }
       body {
         overflow: hidden;
-        padding: 0;
-        margin: 0;
         font-family: "Josefin Sans", sans-serif;
         line-height: 2rem;
         font-size: 1.2rem;
@@ -48,21 +46,16 @@
         height: 100%;
         opacity: 0.8;
       }
-      #showcase {
-        background: url("") center center/cover no-repeat;
-        /* height: 100vh; */
-        width: 100vw;
-      }
+
       #content {
-        /* height: 100%; */
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        height: 90vh;
       }
       #content img {
         display: inline-block;
-        height: 150px;
       }
       #content p {
         width: 70%;
@@ -127,6 +120,7 @@
         flex-direction: row;
         align-items: center;
         align-content: center;
+        height: 100%;
       }
       #mc_embed_signup {
         background: #fff;
@@ -136,7 +130,16 @@
       }
       #mc_embed_signup {
         align-items: center;
-        padding: 0%, 33%;
+        padding: 0%, -33%, 0, 0;
+      }
+
+      .leading-images-container img {
+        height: 250px;
+        margin: 0 20px;
+      }
+
+      .logo img {
+        margin: 100px 0 0 0;
       }
     </style>
     <title>Saracen's Exports - Coming Soon</title>
@@ -160,7 +163,7 @@
           <img
             src="https://raw.githubusercontent.com/chikanna1/saracenexports/main/images/saracen-image-middle.PNG"
             alt=""
-            class="leading-image"
+            class="leading-image second-image"
           />
           <img
             src="https://raw.githubusercontent.com/chikanna1/saracenexports/main/images/saracen-image-2.PNG"
@@ -168,13 +171,12 @@
             class="leading-image"
           />
         </div>
-        <h1 class="coming-soon-h1">COMING SOON</h1>
         <p>
-          Factory Automation Equipment R' US! Saracen Exports has professional
-          teams in the U.S, Taiwan, China, Korea and Dubai to help you with your
-          purchase and support various brand names including Siemens,Allen
-          Bradley,GE Fanuc and etc. Subscribe Below for deals towards your next
-          purchase!
+          Welcome to Saracen Exports - The World's Larest Factory Automation
+          Equipment Marketplace! Saracen Exports has professional teams in the
+          U.S, Taiwan, China, Korea and Dubai to help you with your purchase and
+          support various brand names including Siemens,Allen Bradley,GE Fanuc
+          and etc. Subscribe Below for deals towards your next purchase!
         </p>
         <br />
         <!-- Begin Mailchimp Signup Form -->
